@@ -1,0 +1,28 @@
+# AudioCraft itself is installed separately with --no-deps; its published
+# requirements include CUDA-only xformers and an old PyAV source build.
+torch==2.1.0
+torchaudio==2.1.0
+torchvision==0.16.0
+torchtext==0.16.0
+numpy==1.26.4
+av==12.3.0
+transformers==4.35.2
+huggingface_hub==0.25.2
+spacy==3.7.5
+typer==0.9.4
+click==8.1.8
+flashy==0.0.2
+demucs==4.0.1
+librosa==0.10.2.post1
+numba==0.60.0
+torchmetrics==1.3.2
+einops
+hydra-core
+hydra_colorlog
+julius
+num2words
+sentencepiece
+tqdm
+encodec
+protobuf
+soundfile
