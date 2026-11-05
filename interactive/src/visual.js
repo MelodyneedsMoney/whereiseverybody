@@ -182,7 +182,7 @@ function fitBackdrop() {
   // Use b2's exact LUT and compositing treatment for every glitch image.
   // The clean frame remains outside this group, retaining its original colors.
   visualStage.style.filter = 'none';
-  effectStage.style.filter = 'invert(1) brightness(1.02)';
+  effectStage.style.filter = 'invert(1) brightness(1) contrast(1.4)';
   if (backdropLut) backdropLut.intensity = 1;
   if (requestedBackdrop !== 2 && requestedBackdrop !== 4) {
     const height = requestedBackdrop === 3 ? extent * aspect / backdropAspect : coverHeight;
