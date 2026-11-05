@@ -1,0 +1,14 @@
+.venv/
+.venv-native/
+.python/
+.python-bin/
+.cache/
+__pycache__/
+generated_sounds/
+
+# Local files and recordings are not part of the website repository.
+.DS_Store
+*.pyc
+/sound/
+/ori_sound/
+/concatenation_reference.json
